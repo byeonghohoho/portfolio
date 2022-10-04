@@ -43,7 +43,8 @@ h2.main_tit{font-size: 30px; font-weight: 700; line-height: 1; color:#222;}
 
 .section01.off{opacity: 0; visibility: hidden;}.section01 em.on{left: 0; transform:scale(1); transition:2s ease-in-out;}
 
-.section02{position:Relative; height: auto; padding: 60px 0; background-color: #222;}
+.section02{position:Relative; height: auto; padding: 100px 0; background-color: #222;}
+.section02:before{content:''; position:absolute; left: 0; top: 100%; width: 100%; height: 50px; background:linear-gradient(to bottom, #222, transparent);}
 .section02 h2.main_tit{color:#fff;}
 .section02 .txt_wrap{position:relative; display: flex; align-items: center; left: 0; top: 0; width: 100%; height: auto; visibility: visible; opacity: 1; transition:0.5s;}
 .section02 .txt_wrap .txt{position:relative; left: 0;  transition:0.5s ease-in-out;}
@@ -74,7 +75,9 @@ h2.main_tit{font-size: 30px; font-weight: 700; line-height: 1; color:#222;}
 .section03.on .txt_wrap .txt{bottom:0;}
 .section03.off .txt_wrap{position:relative; left: 0; top: auto; bottom: 0;}
 
-.section04{position:Relative; height: auto; padding: 60px 0; background-color: #222;}
+.section04{position:Relative; height: auto; padding: 100px 0; background-color: #222;}
+.section04:before{content:''; position:absolute; left: 0; bottom: 100%; width: 100%; height: 50px; background:linear-gradient(to top, #222, transparent);}
+.section04:after{content:''; position:absolute; left: 0; top: 100%; width: 100%; height: 50px; background:linear-gradient(to bottom, #222, transparent);}
 .section04 h2.main_tit{color:#fff;}
 .section04 .txt_wrap{position:relative; display: flex; flex-direction:column; justify-content: center; left: 0; top: 0; width: 100%; height: auto; visibility: visible; opacity: 1; transition:0.5s;}
 .section04 .horizental_wrap{position:relative; height: 80px; margin-bottom: 20px; top: 0; transition:0.5s ease-in-out;}
@@ -94,7 +97,7 @@ h2.main_tit{font-size: 30px; font-weight: 700; line-height: 1; color:#222;}
 .section04.on .txt_wrap .txt{bottom:0;}
 .section04.off .txt_wrap{position:relative; left: 0; top: auto; bottom: 0;}
 
-.section05{position:Relative; height: auto; padding: 60px 0;}
+.section05{position:Relative; height: auto; padding: 100px 0;}
 .section05 .txt_wrap{position:relative; display: flex; flex-direction:column; justify-content: center; left: 0; top: 0; width: 100%; height: auto; visibility: visible; opacity:1; transition:0.5s;}
 .section05 .horizental_wrap{position:relative; height: 80px; margin-bottom: 20px; top: 0; transition:0.5s ease-in-out;}
 .section05 .horizental_txt{position:absolute; animation: marquee01 20s linear infinite;}
@@ -113,7 +116,9 @@ h2.main_tit{font-size: 30px; font-weight: 700; line-height: 1; color:#222;}
 .section05.on .txt_wrap .txt{bottom:0;}
 .section05.off .txt_wrap{position:relative; left: 0; top: auto; bottom: 0;}
 
-.section06{position:Relative; height: auto; padding: 60px 0; background-color: #222;}
+.section06{position:Relative; height: auto; padding: 100px 0; background-color: #222;}
+.section06:before{content:''; position:absolute; left: 0; bottom: 100%; width: 100%; height: 50px; background:linear-gradient(to top, #222, transparent);}
+.section06:after{content:''; position:absolute; left: 0; top: 100%; width: 100%; height: 50px; background:linear-gradient(to bottom, #222, transparent);}
 .section06 h2.main_tit{color:#fff;}
 .section06 .txt_wrap{position:relative; display: flex; flex-direction:column; justify-content: center; left: 0; top: 0; width: 100%; height: auto; visibility: visible; opacity: 1; transition:0.5s;}
 .section06 .horizental_wrap{position:relative; height: 80px; margin-bottom: 20px; top: 0; transition:0.5s ease-in-out;}
@@ -145,7 +150,7 @@ h2.main_tit{font-size: 30px; font-weight: 700; line-height: 1; color:#222;}
 .section06.on .txt_wrap .txt{bottom:0;}
 .section06.off .txt_wrap{position:relative; left: 0; top: auto; bottom: 0;}
 
-.section07{padding: 60px 0;}
+.section07{padding: 100px 0;}
 .section07 .tit{position:Relative; text-align: center; top:0; visibility: visible; opacity: 1; transition:0.5s;}
 .section07 .tit h2{display: block; font-size: 30px; font-weight: 700; line-height: 1; color:#222;}
 .section07 .tit p{font-size: 16px; color:#222; line-height: 1; margin-top: 20px;;}
