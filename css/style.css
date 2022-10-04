@@ -55,7 +55,7 @@ h2.main_tit{font-size: 50px; font-weight: 700; line-height: 1; color:#222;}
 .section01 em.on{left: 0; transform:scale(1); transition:2s ease-in-out;}
 .section01.off{opacity: 0; visibility: hidden;}
 
-.section02{position:Relative; height: 200vh; background-color: #222;}
+.section02{position:Relative; height: 300vh; background-color: #222;}
 .section02:before{content:''; position:absolute; left: 0; top: 100%; width: 100%; height: 300px; background:linear-gradient(to bottom, #222, transparent);}
 .section02 h2.main_tit{color:#fff;}
 .section02 .txt_wrap{position:fixed; display: flex; align-items: center; left: 0; top: 0; width: 100%; height: 100vh; visibility: hidden; opacity: 0; transition:0.5s;}
